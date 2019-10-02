@@ -1,0 +1,47 @@
+2019-08-12T19:55:41.534025100 0.011892s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2019-08-12T19:55:41.541209000 0.019041s notice: Initializing directory /data/rethinkdb_data
+2019-08-12T19:55:41.541853000 0.019682s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2019-08-12T19:55:41.542333200 0.020162s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-08-12T19:55:41.545844100 0.023676s notice: Running on Linux 4.9.184-linuxkit x86_64
+2019-08-12T19:55:41.546384200 0.024219s notice: Loading data from directory /data/rethinkdb_data
+2019-08-12T19:55:41.589302400 0.067133s info: Automatically using cache size of 1278 MB
+2019-08-12T19:55:41.591928100 0.069757s notice: Listening for intracluster connections on port 29015
+2019-08-12T19:55:41.593943500 0.071772s notice: Listening for client driver connections on port 28015
+2019-08-12T19:55:41.594102100 0.071932s notice: Listening for administrative HTTP connections on port 8080
+2019-08-12T19:55:41.595497600 0.073326s notice: Listening on cluster addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:55:41.596916000 0.074744s notice: Listening on driver addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:55:41.598421700 0.076252s notice: Listening on http addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:55:41.598444000 0.076273s notice: Server ready, "aaba160c2bb2_15o" d1e52e43-4523-4e31-8c21-c647789ed730
+2019-08-12T19:59:38.877989900 237.639640s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2019-08-12T19:59:38.878065600 237.639715s notice: Shutting down client connections...
+2019-08-12T19:59:38.878189400 237.639839s notice: All client connections closed.
+2019-08-12T19:59:38.878200800 237.639851s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-08-12T19:59:38.878545300 237.640196s notice: Storage engine shut down.
+2019-08-12T19:59:41.226095900 0.018342s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-08-12T19:59:41.232685400 0.024931s notice: Running on Linux 4.9.184-linuxkit x86_64
+2019-08-12T19:59:41.233092800 0.025335s notice: Loading data from directory /data/rethinkdb_data
+2019-08-12T19:59:41.261181400 0.053429s info: Automatically using cache size of 1275 MB
+2019-08-12T19:59:41.266953100 0.059199s notice: Listening for intracluster connections on port 29015
+2019-08-12T19:59:41.268892100 0.061135s notice: Listening for client driver connections on port 28015
+2019-08-12T19:59:41.269380100 0.061623s notice: Listening for administrative HTTP connections on port 8080
+2019-08-12T19:59:41.270993400 0.063236s notice: Listening on cluster addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:59:41.272493200 0.064735s notice: Listening on driver addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:59:41.273924200 0.066167s notice: Listening on http addresses: 127.0.0.1, 172.20.0.2
+2019-08-12T19:59:41.274122000 0.066365s notice: Server ready, "aaba160c2bb2_15o" d1e52e43-4523-4e31-8c21-c647789ed730
+2019-08-12T23:01:26.479427800 8190.878470s info: Table e83327d1-dfde-411a-a015-d3484b17fd36: Starting a new Raft election for term 1.
+2019-08-12T23:01:26.479573900 8190.878616s info: Table e83327d1-dfde-411a-a015-d3484b17fd36: Added replica on this server.
+2019-08-12T23:01:26.481102300 8190.880145s info: Table e83327d1-dfde-411a-a015-d3484b17fd36: This server is Raft leader for term 1. Latest log index is 0.
+2019-08-12T23:26:20.745045500 9686.849956s notice: Someone asked for the nonwhitelisted file "/ws".  If this should be accessible, add it to the static web assets.
+2019-08-27T18:03:04.317661200 0.071521s notice: Running rethinkdb 2.3.6~0jessie (GCC 4.9.2)...
+2019-08-27T18:03:04.333302800 0.087140s notice: Running on Linux 4.9.184-linuxkit x86_64
+2019-08-27T18:03:04.334162500 0.088001s notice: Loading data from directory /data/rethinkdb_data
+2019-08-27T18:03:04.416353100 0.170196s info: Automatically using cache size of 1301 MB
+2019-08-27T18:03:04.424937300 0.178776s notice: Listening for intracluster connections on port 29015
+2019-08-27T18:03:04.527607500 0.281446s notice: Listening for client driver connections on port 28015
+2019-08-27T18:03:04.528677200 0.282516s notice: Listening for administrative HTTP connections on port 8080
+2019-08-27T18:03:04.532249000 0.286089s notice: Listening on cluster addresses: 127.0.0.1, 172.20.0.2
+2019-08-27T18:03:04.534885000 0.288724s notice: Listening on driver addresses: 127.0.0.1, 172.20.0.2
+2019-08-27T18:03:04.537662300 0.291502s notice: Listening on http addresses: 127.0.0.1, 172.20.0.2
+2019-08-27T18:03:04.537699100 0.291537s notice: Server ready, "aaba160c2bb2_15o" d1e52e43-4523-4e31-8c21-c647789ed730
+2019-08-27T18:03:05.542807200 1.296655s info: Table e83327d1-dfde-411a-a015-d3484b17fd36: Starting a new Raft election for term 2.
+2019-08-27T18:03:05.547123300 1.300963s info: Table e83327d1-dfde-411a-a015-d3484b17fd36: This server is Raft leader for term 2. Latest log index is 2.
